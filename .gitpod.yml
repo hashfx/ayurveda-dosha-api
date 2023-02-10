@@ -1,0 +1,5 @@
+
+vscode:
+  extensions:
+    - rangav.vscode-thunder-client
+    - ms-python.python
