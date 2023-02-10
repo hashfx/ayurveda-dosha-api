@@ -3,9 +3,9 @@ from flask import Flask, request
 app = Flask(__name__)
 
 def determine_cough_type(symptoms):
-    vata_symptoms = ["dry", "itchy", "light", "irritating"]
-    pitta_symptoms = ["sharp", "burning", "acidic", "bitter"]
-    kapha_symptoms = ["mucus", "heavy", "sticky", "congested"]
+    vata_symptoms = ["dry", "itchy", "light", "irritating", "learn quickly", "multitasker", "irregular appetite"]
+    pitta_symptoms = ["sharp", "burning", "acidic", "bitter", "intelligent", "purposeful", "learns quickly", "self-determined"]
+    kapha_symptoms = ["mucus", "heavy", "sticky", "congested", "empathetic", "caring", "trusting", "patient", "calm", "wise", "happy", "romantic", "sluggishness", "over-sleeping", "breathing issues", "mucus buildup"]
     
     vata_count = 0
     pitta_count = 0
